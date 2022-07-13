@@ -77,11 +77,12 @@
     background-color: var(--content-pink, grey);
     border-radius: 20px;
     height: 30px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 30px;
     justify-content: left;
 }
 .search img{
+    
     margin-left: 20px;
     height: 25px;
 }
@@ -100,6 +101,35 @@
 
 .pfp{
     border-radius: 50%;
+}
+
+.greetPfp{
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 70px;
+    float: left;
+    margin-right: 30px;
+}
+
+.smallText{
+    font-size: 14px;
+}
+
+.actions{
+    color: var(--pink, pink);
+    margin-right: 30px;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.actionButton{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    height: 40px;
+    background-color: var(--blue, blue);
 }
 
 
