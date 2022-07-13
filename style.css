@@ -15,7 +15,7 @@
     height: 100vw;
     width: 100vw;
     display: grid;
-    grid-template: 1fr 8fr / 1fr 5fr;
+    grid-template: 1fr 14fr / 1fr 5fr;
 
     font-family: var(--custom-font, sans-serif);
     font-size: 24px;
@@ -137,5 +137,42 @@
     grid-row:2/3;
     grid-column:2/3;
     background-color: var(--content-pink, grey);
+    display: grid;
+    grid-template: 1fr 1fr/3fr 2fr;
+    gap: 20px;
 }
+
+
+.projects{
+    margin-top: 20px;
+    margin-left: 20px;
+    grid-row:1/3;
+    height: 600px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 15px;
+}
+.project{
+    position: relative;
+    box-shadow: 5px 5px white;
+    border-radius: 25px;
+    height: 200px;
+    background-color: var(--pink, pink);
+}
+.project > p, .project > span{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 350px;
+}
+
+.project > p{
+    font-size: 14px;
+}
+
+.project > img{
+    position: absolute;
+    top: 160px;
+    right: 10px;
+}
+
 
