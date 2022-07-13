@@ -19,6 +19,7 @@
     font-size: 24px;
 }
 
+
 .sidebar{
     padding: 20px;
     display: grid;
@@ -34,12 +35,20 @@
     float: left;
     margin-right: 10px;
 }
+
 .logo img{
     height: clamp(40px, 8vw, 50px);
 }
 
 .logo{
     font-size: 35px;
+}
+
+.sidebar a{
+    color: white;
+    font-family: var(--custom-font, sans-serif);
+    font-size: 24px;
+    text-decoration: none;
 }
 
 .header{
