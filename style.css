@@ -1,14 +1,16 @@
 :root{
---blue: #2F3C7E;
---pink: #FBEAEB;
---content-pink: #c7b1b3;
---custom-font: 'Permanent Marker', cursive;
-}
+    --blue: #2F3C7E;
+    --pink: #FBEAEB;
+    --content-pink: #c7b1b3;
+    --custom-font: 'Permanent Marker', cursive;
+    }
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 .container{
     height: 100vw;
     width: 100vw;
@@ -24,7 +26,7 @@
     padding: 20px;
     display: grid;
     grid-row:1/3;
-    grid-template-rows: minmax(20px, 80px) minmax(100px, 300px) 1fr;
+    grid-template-rows: minmax(20px, 90px) minmax(100px, 400px) 1fr;
     justify-content: start;
     
     color: white;
@@ -50,6 +52,19 @@
     font-size: 24px;
     text-decoration: none;
 }
+
+.sidebar a:hover{
+    color: white;
+    font-family: var(--custom-font, sans-serif);
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.main-options > div, .additional-options > div{
+    margin-top: 10px;
+}
+
+
 
 .header{
     grid-column:2/3;
